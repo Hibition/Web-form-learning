@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql:///mybatis
+    username: root
+    password: 011012.vbs
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    tomcat:
+      url:
+  main:
+    allow-circular-references: true
+server:
+  port: 8181
